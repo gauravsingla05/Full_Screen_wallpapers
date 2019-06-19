@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">HD Quotes Wallpapers</string>
+    <string name="country_prompt">Choose Categoty</string>
+
+    <string-array name="choose_category">
+        <item>Romantic</item>
+        <item>Sad</item>
+        <item>Love</item>
+        <item>Old</item>
+        <item>Dosti</item>
+        <item>Punjabi</item>
+        <item>Festival</item>
+        <item>Tv Serials</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigation_drawer_open">open</string>
+    <string name="navigation_drawer_close">close</string>
+    <string name="banner_ads_id">ca-app-pub-3940256099942544/6300978111</string>
+</resources>

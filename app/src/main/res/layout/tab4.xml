@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+  <EditText
+      android:layout_width="match_parent"
+      android:layout_height="30dp"
+      android:id="@+id/searchBox"
+      android:hint="Search Item"
+      android:layout_marginTop="10dp"
+      android:background="@drawable/searchboxborder"
+      android:inputType="text"
+      android:singleLine="true"
+
+
+      />
+  <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/searchButton"
+      android:layout_below="@id/searchBox"
+      android:text="Search"
+      android:layout_marginLeft="150dp"
+      android:layout_marginTop="3dp"
+
+
+      />
+  <android.support.v7.widget.RecyclerView
+      android:layout_below="@+id/searchButton"
+      android:layout_marginTop="10dp"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:id="@+id/search_video_list"
+      >
+
+  </android.support.v7.widget.RecyclerView>
+
+  <com.google.android.gms.ads.AdView
+      xmlns:ads="http://schemas.android.com/apk/res-auto"
+      android:id="@+id/adView"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerHorizontal="true"
+      android:layout_alignParentBottom="true"
+      ads:adSize="BANNER"
+      ads:adUnitId="@string/banner_ads_id">
+  </com.google.android.gms.ads.AdView>
+</RelativeLayout>

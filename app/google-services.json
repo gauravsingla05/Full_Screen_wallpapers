@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "300183913019",
+    "firebase_url": "https://quotes-wallpaper-882c4.firebaseio.com",
+    "project_id": "quotes-wallpaper-882c4",
+    "storage_bucket": "quotes-wallpaper-882c4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300183913019:android:4d469be843ccd2df",
+        "android_client_info": {
+          "package_name": "wallpaper.com.fullscreenstatus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300183913019-r3sfj2hgbconen7kev22131jl8obn2c4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCs2YsitMyfpzoezBhB0OXB9x25bnVJFFk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "300183913019-r3sfj2hgbconen7kev22131jl8obn2c4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
